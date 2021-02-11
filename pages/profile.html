@@ -93,9 +93,9 @@
 
 
                             <div class="navbar-cart">
-                                <a class="icon-btn primary-icon-text icon-text-btn" href="javascript:void(0)">
+                                <a class="icon-btn primary-icon-text icon-text-btn" href="my_order.html">
                                     <i class="lni lni-shopping-basket"></i>
-                                    <span class="icon-text text-style-1">88</span>
+                                    <span class="icon-text text-style-1">8</span>
                                 </a>
 
                                  <div class="navbar-cart-dropdown">
@@ -592,7 +592,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                    </div> -->
+                                    </div>
                                 </div>
                                 <!-- navbar cart Ends -->
                             </div>
@@ -606,108 +606,153 @@
     </div>
     <!--====== Navbar Style 7 Part Ends ======-->
 
-
-
-
-
-
-
-    <div class="boxx">
-       
-        <div class="text">
-        <h1>Contact <span class="red">Us</span></h1>
-        <hr class="redline">
-        <p>Have Questions ? We have answers </p>
-        </div>
-      </div>
-    
-      <div class="touch">
-        <h2>Contact</h2>
-        <hr class="redline">
-      </div>
-      
-      <form action="" method="POST" name="contact-form">
-      <div class="container form-margin">
-        <div class="row">
-        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>     <div class="col-lg-4 col-md-4 col-sm-4">
-          <div class="form-group">
-        <input type="text" class="form-control mb-15" placeholder="First Name" ng-model="firstname" name="firstname" required>    
-          </div>
-    
-        <div class="form-group">
-        <input type="text" class="form-control mb-15" placeholder="Phone" ng-model="phone" name="firstname" required>    
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-4">
-          <div class="form-group">
-        <input type="text" class="form-control mb-15" placeholder="Last Name" ng-model="lastname" name="lastname" required>    
-          </div>
-          <div class="form-group">
-        <input type="email" class="form-control mb-15" placeholder="E-mail" ng-model="email" name="email" required>    
-          </div>
-      
-        </div>
-        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 "></div>
-        </div>
-      </div>
-      
-      <div class="container">
-        <div class="row">
-        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
-        <div class="col-lg-8 col-md-8 col-sm-8">
-          <div class="form-group">
-        <textarea class="form-control mb-15" rows="6" placeholder="Message" ng-model="message" name="message" required></textarea>
-      </div>  
-          <div class="pager">
-          <button type="submit" class="btn btn-success">SEND MESSAGE</button>
-          </div>
-          </div>
-        </div>
-      
-      </div>
-      </form>
-      <!--address-->
-    
-
-
-
-
-<div class="container mt-30">  
-
-    <div class="row">
-        <div class="col-lg-4 col-md-4 col-sm-12 text-center">
-
-            <h3 class="mb-15">Our Address</h3>
-            <p>34#1, 13th Cross Roads</p>
-            <p>NGR Layout</p>
-            <p>Bommanahalli,</p>
-            <p>Bangalore - 560068</p>
-
-            <div class="phone-e">
-                <p><span class="glyphicon glyphicon-envelope"> </span> info@trainingmug.com</p>
-                <p><span class="glyphicon glyphicon-phone"></span> +91-97427 66186</p>
+    <div class="container emp-profile">
+        <form method="post">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="profile-img">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS52y5aInsxSm31CvHOFHWujqUx_wWTS9iM6s7BAm21oEN_RiGoog" alt=""/>
+                        <div class="file btn btn-lg btn-primary">
+                            Change Photo
+                            <input type="file" name="file"/>
+                        </div>
+                    </div>
                 </div>
+                <div class="col-md-6">
+                    <div class="profile-head">
+                                <h5>
+                                    Kshiti Ghelani
+                                </h5>
+                                <h6>
+                                    Web Developer
+                                </h6>
+                                <p class="proile-rating">RANKINGS : <span>8/10</span></p>
+                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active red" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Timeline</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <input type="submit" class="profile-edit-btn" name="btnAddMore" value="Edit Profile"/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="profile-work">
+                        <p>WORK LINK</p>
+                        <a href="">Website Link</a><br/>
+                        <a href="">Bootsnipp Profile</a><br/>
+                        <a href="">Bootply Profile</a>
+                        
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="tab-content profile-tab" id="myTabContent">
+                        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <label>User Id</label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <p>Kshiti123</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <label>Name</label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <p>Kshiti Ghelani</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <label>Email</label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <p>kshitighelani@gmail.com</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <label>Phone</label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <p>123 456 7890</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <label>Profession</label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <p>Web Developer and Designer</p>
+                                        </div>
+                                    </div>
+                        </div>
+                        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <label>Experience</label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <p>Expert</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <label>Hourly Rate</label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <p>10$/hr</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <label>Total Projects</label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <p>230</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <label>English Level</label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <p>Expert</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <label>Availability</label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <p>6 months</p>
+                                        </div>
+                                    </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <label>Your Bio</label><br/>
+                                    <p>Your detail description</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>           
+    </div>
 
 
 
-        </div>
-
-        <div class="col-lg-8 col-md-4 col-sm-12">
-
-<img src="../img/contact.png" style="width: 80%; height: 80%;">
-          </div>
-     <!--address-->
 
 
-
-
-
-     
-
-
-
-
-    
 
 
 
@@ -724,7 +769,7 @@
                     <div class="col-lg-5 col-md-7 col-sm-10">
                         <div class="footer-logo text-center">
                             <a href="index.html">
-                                <img src="assets/images/" alt="">
+                                <img src="../assets/images/" alt="">
                             </a>
                         </div>
                         <h5 class="heading-5 text-center mt-30">Follow Us</h5>
@@ -743,7 +788,7 @@
                 <div class="row">
                     <div class="col-lg-3 col-md-3 col-sm-6">
                         <div class="footer-widget">
-                            <h5 class="footer-title">PRODUCT</h5>
+                            <h5 class="footer-title"></h5>
     
                             <ul class="footer-link">
                                 <li><a href="javascript:void(0)">Join To aldokan</a></li>
@@ -755,7 +800,7 @@
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-6">
                         <div class="footer-widget">
-                            <h5 class="footer-title">DEVELOPERS</h5>
+                            <h5 class="footer-title"></h5>
     
                             <ul class="footer-link">
                                 <li><a href="javascript:void(0)">Customers Service </a></li>
@@ -769,7 +814,7 @@
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-6">
                         <div class="footer-widget">
-                            <h5 class="footer-title">PRODUCT</h5>
+                            <h5 class="footer-title"></h5>
     
                             <ul class="footer-link">
                                 <li><a href="javascript:void(0)">Shipping Policy</a></li>
@@ -783,7 +828,7 @@
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-6">
                         <div class="footer-widget">
-                            <h5 class="footer-title">PRODUCT</h5>
+                            <h5 class="footer-title"></h5>
     
                             <ul class="footer-link">
                                 <li><a href="javascript:void(0)">Launch Pad</a></li>
@@ -803,7 +848,6 @@
     </section>
     <!--====== Footer Style 3 Part Ends ======-->
 
-  
     <!--====== Bootstrap 5 js ======-->
     <script src="../assets/js/popper.min.js"></script>
     <script src="../assets/js/bootstrap.min.js"></script>
