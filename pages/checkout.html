@@ -601,7 +601,6 @@
 
 
 
-
 <h4 class="text-center mt-100"> CHECKOUT</h4>
 
     <section class="signup-step-container">
@@ -707,7 +706,6 @@
                                             </div>
                                     </div>
 
-                                    
                                     <ul class="list-inline pull-right">
                                         <a href="#step2" class="main-btn secondary-1-btn" style="float: right;">
                                            next
@@ -717,50 +715,127 @@
                                 <div class="tab-pane" role="tabpanel" id="step2">
                                     <h4 class="text-center">Step 2</h4>
                                     
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <label>Address 1 *</label> 
-                                            <input class="form-control" type="text" name="name" placeholder=""> 
-                                        </div>
-                                    </div>
-                                    
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <label>City / Town *</label> 
-                                            <input class="form-control" type="text" name="name" placeholder=""> 
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <label>Country *</label> 
-                                            <select name="country" class="form-control" id="country">
-                                                <option value="NG" selected="selected">Nigeria</option>
-                                                <option value="NU">Niue</option>
-                                                <option value="NF">Norfolk Island</option>
-                                                <option value="KP">North Korea</option>
-                                                <option value="MP">Northern Mariana Islands</option>
-                                                <option value="NO">Norway</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                    
-                                    
-                                    
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <label>Registration No.</label> 
-                                            <input class="form-control" type="text" name="name" placeholder=""> 
-                                        </div>
-                                    </div>
+                   <div class="row">              
+
+<!-- This label is our trigger, it can be placed anywhere in the markup -->
+<label for="cbToggleVisibility" class="toggle-label" role="button">Credit Card</label>
+
+<div class="content-container">
+  <!-- Input must be a sibling of our box we want to toggle visibility on, but it needs to come before it in the markup, just like below -->
+  <input type="checkbox" id="cbToggleVisibility">
+
+  <!-- the target we want to toggle visibility on -->
+  <div class="target">
+
+
+
+
+
+
+
+
+
+    <div class="container-fluid">
+        <header>
+          
+        </header>
+        <div class="creditCardForm">
+            <div class="heading">
+                <h1>Confirm Purchase</h1>
+            </div>
+            <div class="payment">
+                <form>
+                    <div class="form-group owner">
+                        <label for="owner">Owner</label>
+                        <input type="text" class="form-control" id="owner">
+                    </div>
+                    <div class="form-group CVV">
+                        <label for="cvv">CVV</label>
+                        <input type="text" class="form-control" id="cvv">
+                    </div>
+                    <div class="form-group" id="card-number-field">
+                        <label for="cardNumber">Card Number</label>
+                        <input type="text" class="form-control" id="cardNumber">
+                    </div>
+                    <div class="form-group" id="expiration-date">
+                        <label>Expiration Date</label>
+                        <select>
+                            <option value="01">January</option>
+                            <option value="02">February </option>
+                            <option value="03">March</option>
+                            <option value="04">April</option>
+                            <option value="05">May</option>
+                            <option value="06">June</option>
+                            <option value="07">July</option>
+                            <option value="08">August</option>
+                            <option value="09">September</option>
+                            <option value="10">October</option>
+                            <option value="11">November</option>
+                            <option value="12">December</option>
+                        </select>
+                        <select>
+                            <option value="16"> 2016</option>
+                            <option value="17"> 2017</option>
+                            <option value="18"> 2018</option>
+                            <option value="19"> 2019</option>
+                            <option value="20"> 2020</option>
+                            <option value="21"> 2021</option>
+                        </select>
+                    </div>
+                    <div class="form-group" id="credit_cards">
+                        <img src="../img/visa.jpg" id="visa">
+                        <img src="../img/mastercard.jpg" id="mastercard">
+                        <img src="../img/amex.jpg" id="amex">
+                    </div>
+                    <div class="form-group" id="pay-now">
+                        <button type="submit" class="btn btn-default" id="confirm-purchase">Confirm</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    
+    </div>
+
+
+
+    
+
+</div>
+</div><!-- /.content-container -->
+
+
+<!-- This label is our trigger, it can be placed anywhere in the markup -->
+<label for="cbToggleVisibilityy" class="toggle-label RED" role="button">Cash On Delivery</label>
+
+<div class="content-container">
+  <!-- Input must be a sibling of our box we want to toggle visibility on, but it needs to come before it in the markup, just like below -->
+  <input type="checkbox" id="cbToggleVisibilityy">
+
+  <!-- the target we want to toggle visibility on -->
+  <div class="target">
+
+
+    <h1>some content</h1>
+    <p>SParagraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group of at least five sentences, a paragraph is half a page long, etc. In reality, though, the unity and coherence of ideas among sentences is what constitutes a paragraph. A paragraph is defined as “a group of sentences or a single sentence that forms a unit” (Lunsford and Connors 116). Length and appearance do not determine whether a section in a paper is a paragraph. For instance, in some styles of writing, particularly journalistic styles, a paragraph can be just one sentence long. Ultimately, a paragraph is a sentence or group of sentences that support one main idea. In this handout, we will refer to this as the “controlling idea,” because it controls what happens in the rest of the</p>
+
+
+
+
+  </div>
+
+</div><!-- /.content-container -->
+<ul class="list-inline pull-right">
+
+    <li><button type="button" class="default-btn next-step">Continue</button></li>
+</ul>
+ 
+</div>            
+                                 
                                    
                                     
                                     
-                                    <ul class="list-inline pull-right">
-                                        <li><button type="button" class="default-btn prev-step">Back</button></li>
-                                        <li><button type="button" class="default-btn next-step skip-btn">Skip</button></li>
-                                        <li><button type="button" class="default-btn next-step">Continue</button></li>
-                                    </ul>
-                                </div>
+                                </div>  
                                   
                                 <div class="tab-pane" role="tabpanel" id="step3">
                                     <br>
